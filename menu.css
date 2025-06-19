@@ -1,5 +1,5 @@
 body{
-	background-color: #D133FF;
+	background-color: pink;
 	font-family: Arial;
 }
 *{/* menu*/
@@ -71,5 +71,126 @@ body{
 	visibility: visible; /*Al pasar el cursor al menu se visualiza el submenu*/
 	opacity: 1;
 }
+
+h1.titulo1 {
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-family: arial;
+    font-size: 50px;
+}
+p.parrafo1 {
+    color: black;
+    text-align: justify;
+    font-weight: 200;
+    font-family: cursiva;
+    font-size: 30px;
+}
+p.parrafo2 {
+    color: black;
+    text-align: justify;
+    font-weight: 100;
+    font-family: verdana;
+    font-size: 20px;
+}
+p.parro3 {
+	color: oranje;
+    text-align: left;
+    font-weight: 115;
+    font-family: verdana;
+    font-size: 40px;
+}
+p.parro4 {
+	color: pink;
+    text-align: left;
+    font-weight: 100;
+    font-family: arial;
+    font-size: 20px;	
+}
+p.parro5 {
+	color: red ;
+    text-align: left;
+    font-weight: 120;
+    font-family: verdana;
+    font-size: 30px;	
+}
+p.parro6 {
+	color: purple;
+    text-align: left;
+    font-weight: 100;
+    font-family: cursiva;
+    font-size: 50px;	
+}
+
+.img{ /*Diseño de la imagen*/
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    display: block;
+    margin: 0px auto;
+    /*float: right;
+    float: left; left | right | none */
+}
+.hipervinculo{ /*Diseño del hipervinculo*/
+    float: left;
+}
+.video{ /*Diseño del video*/
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+p.im{ /*Diseño del parrafo imagen*/
+    color: blue;
+    font-family: cursive;
+    font-size: x-large;
+}
+p.hi{ /*Diseño del parrafo hipervinculo*/
+    color: green;
+    font-family: cursive;
+    font-size: x-large;
+}
+p.vi{ /*Diseño del parrafo video*/
+    color: orange;
+    font-family: cursive;
+    font-size: x-large;
+}
+*{/* menu*/
+    margin: 0;
+    padding: 0;  /*Espacio entre el contenido del elemento y su borde*/
+    -webkit-box-sizing: border-box; /*Calcular las medidas de un elemento */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*tabla*/
+#tabla{
+    margin: 150px auto;
+    width: 600px;
+    float: center; /*ubica un elemento en su contenedor según la posición dada*/
+}
+table{
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse; /*Fusionar los bordes*/
+    width:100%;
+}
+th, td{
+    border: solid 1px black;
+    padding: 5px;
+}
+thead{/*Bloque de filas*/
+    background-color: #246355;
+    border-bottom: solid 5px #0F362D; /*Establece el estilo del borde inferior de un elemento, se define el estilo, grosor y color*/
+    color: white;
+}
+tr:nth-child(even){ /*Selección de varios elementos hijo, selección de una línea y otra no*/
+    background-color: #ddd;
+}
+tr:hover td{/*Al seleccionar una fila colorea el espacio y la letra la pasa a blanco */
+    background-color: #369681;
+    color: white;
+}
+
 
 
